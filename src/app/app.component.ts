@@ -1,10 +1,11 @@
-import { Component, VERSION } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'my-app',
+  selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: [ './app.component.css' ]
+  styleUrls: ['./app.component.css']
 })
-export class AppComponent  {
-  name = 'Angular ' + VERSION.major;
+
+export class AppComponent {
+  title = 'Tour of Heroes';
 }
